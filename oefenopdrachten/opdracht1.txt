@@ -1,0 +1,4 @@
+Het verschil tussen een klasse en een object is:
+  als voorbeeld heb je een auto.
+  het ontwerp van de auto is de klasse, dit ontwerp kan meerdere keren worden gebruikt.
+  de object is de bouw van de auto.
