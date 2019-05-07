@@ -1,0 +1,2 @@
+Als een constructor niet public is dan werkt de hele class gewoon niet, dan geeft hij
+een error als je de class probeert te callen.
