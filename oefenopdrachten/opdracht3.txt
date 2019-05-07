@@ -1,0 +1,42 @@
+Het verschil tussen Public,Private en Protected:
+
+Public is dat alles buiten de klasse de variabelen die in de klasse zit kan gebruiken.
+Voorbeeld:
+  class User{
+    public $name = "Jeffrey";
+  }
+  $naam = new User;
+  echo $naam->name;
+
+  ^ Hiermee echo'd hij de variabel buiten de klasse.
+
+Private betekent dat alleen de klasse de variabel kan gebruiken
+Voorbeeld:
+class User{
+  private $name = "Jeffrey";
+}
+$naam = new User;
+echo $naam->name;
+
+^ dit geeft een error.
+
+
+
+Protected betekent dat alleen als een andere klasse de klasse met de Protected variabelen
+extend
+
+Voorbeeld:
+class test {
+  protected $testvariabel = "test";
+}
+class User extends test{
+  public $name = "Jeffrey";
+  public function printtest(){
+    echo this->testvariabel;
+  }
+}
+$naam = new User;
+echo $naam->printtest();
+
+Het is niet handig om alles public te maken want dan leer je niet waar OOP over gaat.
+Het is hierom ook handig om properties private te maken en methodes public.
