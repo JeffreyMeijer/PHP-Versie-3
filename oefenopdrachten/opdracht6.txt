@@ -1,0 +1,14 @@
+In de class Table word er met een constructor in het begin de variabel
+$_rows gezet naar een array.
+Dan worden en nog 2 public functies gemaakt 1 genaamd append() en 1 genaamd draw()
+append() voegt een row toe aan de variabel $_cells en draw() laat de table met rows en cells zien.
+de draw() functie pakt alle rows en cells en print deze uit in een tabel.
+
+
+In de class Rows word er met een constructor in het begin de variabel
+$_cells gezet naar een array.
+dan zijn er nog 2 public functies 1 genaamd append() en 1 genaamd getCells()
+append() voegt een cell toe aan de variabel $_cells en getCells() returned alle cells.
+
+In de class Cells word er met een constructor de content van de cells gezet/
+ook is er nog een public functie genaamd getContent(), getContent() laat alle content van de cells zien.
