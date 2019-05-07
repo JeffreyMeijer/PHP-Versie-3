@@ -1,0 +1,3 @@
+Zuigdier extends dier
+C++ extends programmeertaal
+PHP extends programmeertaal
